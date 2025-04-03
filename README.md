@@ -1,7 +1,7 @@
 # 🚴 London Bike Sharing Analytics
 
-## Project Overview
-This project processes and analyzes London bike-sharing data using a data pipeline. It ingests, transforms, and visualizes bike usage trends.
+## Description
+This project aims to create a data pipeline for processing data from the London Bike Rental service (Santander Cycles). The data will be ingested, cleaned, loaded into BigQuery, transformed, and visualized via a dashboard.
 
 ## Tech Stack
 - **Orchestration:** Apache Airflow
@@ -10,24 +10,37 @@ This project processes and analyzes London bike-sharing data using a data pipeli
 - **Infrastructure:** Terraform 
 - **Visualization:** Looker Studio / Metabase 
 
-## Directory Structure
-- `dags/` - Airflow DAGs for data pipeline automation
-- `dbt/` - Data transformation SQL scripts
-- `scripts/` - Data ingestion and cleaning scripts 
-- `dashboard/` - Dashboard configuration 
-- `terraform/` - Infrastructure setup 
-- `tests/` - Unit tests 
+## Project Structure
 
-## How to Run
-1. Clone this repo:
-```bash
-git clone https://github.com/JudsonMorgan/NYC_trip_data_project.git 
+### dags/
+- **bike_data_pipeline.py**: Airflow DAG to orchestrate the entire data pipeline.
+- **dependencies.py**: Shared utility functions for the DAG.
+- **load_to_bq.py**: Task to load data to BigQuery.
+- **transformation.py**: Task for transforming data for BI usage. 
 
+### scripts/
+- **ingest_bike_data.py**: Script to ingest bike rental data.
+- **clean_data.py**: Script to clean the ingested data.
+
+### dbt/
+- DBT transformation models for cleaning and aggregating the data.
+
+## Setup
+
+1. Clone this repository
+    ```
+    git clone https://github.com/JudsonMorgan/NYC_trip_data_project.git 
+    ```
 2. Install dependencies:
-pip install -r requirements.txt 
-
-3. Run Airflow scheduler:
-airflow scheduler
-
-4. View the dashboard on 
-
+    ```
+    make setup
+    ```
+3. Set up Airflow
+    ```
+    airflow db init
+    airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+    ```
+4. Run the Airflow DAG:
+    ```
+    make run_all
+    ```
