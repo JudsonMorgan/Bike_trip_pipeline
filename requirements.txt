@@ -1,0 +1,8 @@
+google-cloud-storage==2.1.0
+pandas==1.5.3
+requests==2.26.0
+pytest==6.2.5
+google-cloud-bigquery>=1.25.0,<3.0.0
+dbt-bigquery>=0.21.0,<1.0.0
+apache-airflow==2.1.0
+flask-appbuilder==3.3 
