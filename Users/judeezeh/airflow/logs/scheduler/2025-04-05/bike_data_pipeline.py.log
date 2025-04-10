@@ -1,0 +1,70 @@
+[2025-04-05T11:38:16.509+0100] {processor.py:161} INFO - Started process (PID=18754) to work on /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:38:16.509+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py for tasks to queue
+[2025-04-05T11:38:16.510+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:16.510+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:38:16.517+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:16.516+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py", line 5, in <module>
+    from fetch_data import fetch_bike_data
+ModuleNotFoundError: No module named 'fetch_data'
+[2025-04-05T11:38:16.517+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:38:16.542+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py took 0.033 seconds
+[2025-04-05T11:39:36.008+0100] {processor.py:161} INFO - Started process (PID=18888) to work on /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:39:36.008+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py for tasks to queue
+[2025-04-05T11:39:36.008+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:36.008+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:39:36.014+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:36.014+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py", line 5, in <module>
+    from fetch_data import fetch_bike_data
+ModuleNotFoundError: No module named 'fetch_data'
+[2025-04-05T11:39:36.015+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:39:36.039+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py took 0.033 seconds
+[2025-04-05T11:40:26.929+0100] {processor.py:161} INFO - Started process (PID=18981) to work on /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:40:26.930+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py for tasks to queue
+[2025-04-05T11:40:26.930+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:26.930+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:40:26.937+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:26.936+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py", line 5, in <module>
+    from fetch_data import fetch_bike_data
+ModuleNotFoundError: No module named 'fetch_data'
+[2025-04-05T11:40:26.937+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:40:26.962+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py took 0.034 seconds
+[2025-04-05T11:41:14.250+0100] {processor.py:161} INFO - Started process (PID=19078) to work on /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:41:14.251+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py for tasks to queue
+[2025-04-05T11:41:14.252+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:14.251+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:41:14.258+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:14.258+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py", line 5, in <module>
+    from fetch_data import fetch_bike_data
+ModuleNotFoundError: No module named 'fetch_data'
+[2025-04-05T11:41:14.259+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:41:14.284+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py took 0.035 seconds
+[2025-04-05T11:41:59.672+0100] {processor.py:161} INFO - Started process (PID=19147) to work on /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:41:59.673+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py for tasks to queue
+[2025-04-05T11:41:59.674+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:59.674+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:41:59.681+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:59.680+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py", line 5, in <module>
+    from fetch_data import fetch_bike_data
+ModuleNotFoundError: No module named 'fetch_data'
+[2025-04-05T11:41:59.681+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py
+[2025-04-05T11:41:59.706+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/Users/judeezeh/airflow/dags/bike_data_pipeline.py took 0.035 seconds

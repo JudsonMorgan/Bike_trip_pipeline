@@ -1,0 +1,214 @@
+[2025-04-05T11:15:05.098+0100] {processor.py:161} INFO - Started process (PID=16698) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:15:05.099+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:15:05.099+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.099+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:15:05.101+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:15:05.176+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.154+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-04-05T11:15:05.179+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.179+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-04-05T11:15:05.181+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.181+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-04-05T11:15:05.181+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.181+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:15:05.183+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.183+0100] {dag.py:3118} INFO - Creating ORM DAG for tutorial
+[2025-04-05T11:15:05.186+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:05.186+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:15:05.191+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds
+[2025-04-05T11:16:28.307+0100] {processor.py:161} INFO - Started process (PID=16829) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:16:28.308+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:16:28.309+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:28.309+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:16:28.311+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:16:28.340+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:28.340+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:16:28.345+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:28.345+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:16:28.352+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:17:17.347+0100] {processor.py:161} INFO - Started process (PID=16901) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:17:17.347+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:17:17.347+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:17.347+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:17:17.349+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:17:17.378+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:17.378+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:17:17.382+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:17.382+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:17:17.389+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2025-04-05T11:19:08.906+0100] {processor.py:161} INFO - Started process (PID=17093) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:19:08.907+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:19:08.907+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:19:08.907+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:19:08.910+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:19:08.941+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:19:08.941+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:19:08.947+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:19:08.946+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:19:08.954+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2025-04-05T11:20:31.681+0100] {processor.py:161} INFO - Started process (PID=17221) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:20:31.682+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:20:31.682+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:31.682+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:20:31.685+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:20:31.717+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:31.717+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:20:31.723+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:31.723+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:20:31.730+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.050 seconds
+[2025-04-05T11:21:29.217+0100] {processor.py:161} INFO - Started process (PID=17305) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:21:29.218+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:21:29.218+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:29.218+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:21:29.221+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:21:29.250+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:29.250+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:21:29.256+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:29.255+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:21:29.263+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2025-04-05T11:22:25.331+0100] {processor.py:161} INFO - Started process (PID=17388) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:22:25.332+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:22:25.332+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:25.332+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:22:25.334+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:22:25.363+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:25.363+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:22:25.368+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:25.368+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:22:25.375+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:23:16.754+0100] {processor.py:161} INFO - Started process (PID=17464) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:23:16.754+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:23:16.755+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:16.755+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:23:16.757+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:23:16.792+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:16.792+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:23:16.798+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:16.798+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:23:16.807+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2025-04-05T11:24:02.729+0100] {processor.py:161} INFO - Started process (PID=17529) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:24:02.731+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:24:02.731+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:02.731+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:24:02.733+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:24:02.764+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:02.764+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:24:02.769+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:02.769+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:24:02.778+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2025-04-05T11:24:55.537+0100] {processor.py:161} INFO - Started process (PID=17597) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:24:55.538+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:24:55.538+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:55.538+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:24:55.540+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:24:55.569+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:55.569+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:24:55.574+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:55.574+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:24:55.580+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:25:45.915+0100] {processor.py:161} INFO - Started process (PID=17667) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:25:45.917+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:25:45.917+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:45.917+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:25:45.919+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:25:45.949+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:45.949+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:25:45.953+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:45.953+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:25:45.960+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2025-04-05T11:26:33.040+0100] {processor.py:161} INFO - Started process (PID=17743) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:26:33.041+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:26:33.041+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:33.041+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:26:33.044+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:26:33.072+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:33.072+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:26:33.077+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:33.077+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:26:33.084+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:27:24.480+0100] {processor.py:161} INFO - Started process (PID=17818) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:27:24.481+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:27:24.481+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:24.481+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:27:24.483+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:27:24.512+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:24.512+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:27:24.517+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:24.517+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:27:24.524+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2025-04-05T11:28:20.502+0100] {processor.py:161} INFO - Started process (PID=17896) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:28:20.503+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:28:20.503+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:20.503+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:28:20.506+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:28:20.536+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:20.536+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:28:20.541+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:20.541+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:28:20.548+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2025-04-05T11:29:15.631+0100] {processor.py:161} INFO - Started process (PID=17974) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:29:15.631+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:29:15.631+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:15.631+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:29:15.634+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:29:15.663+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:15.663+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:29:15.667+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:15.667+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:29:15.674+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:30:10.529+0100] {processor.py:161} INFO - Started process (PID=18045) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:30:10.529+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:30:10.530+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:10.529+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:30:10.532+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:30:10.561+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:10.561+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:30:10.565+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:10.565+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:30:10.572+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2025-04-05T11:31:02.060+0100] {processor.py:161} INFO - Started process (PID=18126) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:31:02.061+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:31:02.061+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:02.061+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:31:02.063+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:31:02.092+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:02.092+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:31:02.097+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:02.097+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:31:02.105+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:31:50.096+0100] {processor.py:161} INFO - Started process (PID=18197) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:31:50.097+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:31:50.097+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:50.097+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:31:50.099+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:31:50.128+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:50.128+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:31:50.132+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:50.132+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:31:50.139+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2025-04-05T11:32:42.142+0100] {processor.py:161} INFO - Started process (PID=18276) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:32:42.143+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:32:42.143+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:42.143+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:32:42.145+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:32:42.175+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:42.175+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:32:42.180+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:42.180+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:32:42.187+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2025-04-05T11:33:34.820+0100] {processor.py:161} INFO - Started process (PID=18349) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:33:34.820+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:33:34.821+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:34.821+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:33:34.823+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:33:34.852+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:34.852+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:33:34.857+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:34.857+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:33:34.864+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:34:28.396+0100] {processor.py:161} INFO - Started process (PID=18425) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:34:28.397+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:34:28.397+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:28.397+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:34:28.400+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:34:28.428+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:28.428+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:34:28.433+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:28.433+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:34:28.440+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2025-04-05T11:35:15.955+0100] {processor.py:161} INFO - Started process (PID=18496) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:35:15.956+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:35:15.956+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:15.956+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:35:15.959+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:35:15.988+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:15.988+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:35:15.993+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:15.993+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:35:16.000+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2025-04-05T11:36:04.018+0100] {processor.py:161} INFO - Started process (PID=18559) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:36:04.019+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:36:04.019+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:04.019+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:36:04.022+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:36:04.051+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:04.051+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:36:04.056+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:04.056+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:36:04.062+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:36:58.545+0100] {processor.py:161} INFO - Started process (PID=18644) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:36:58.545+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:36:58.545+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:58.545+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:36:58.548+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:36:58.577+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:58.577+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:36:58.582+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:58.582+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:36:58.588+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:37:49.753+0100] {processor.py:161} INFO - Started process (PID=18724) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:37:49.754+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:37:49.754+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:49.754+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:37:49.757+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:37:49.786+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:49.786+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:37:49.791+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:49.791+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:37:49.798+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2025-04-05T11:38:30.899+0100] {processor.py:161} INFO - Started process (PID=18790) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:38:30.900+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:38:30.901+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:30.901+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:38:30.903+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:38:30.932+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:30.932+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:38:30.937+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:30.937+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:38:30.943+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:39:49.974+0100] {processor.py:161} INFO - Started process (PID=18909) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:39:49.974+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:39:49.974+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:49.974+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:39:49.976+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:39:50.005+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:50.005+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:39:50.010+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:50.010+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:39:50.018+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:40:41.584+0100] {processor.py:161} INFO - Started process (PID=19028) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:40:41.586+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:40:41.586+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:41.586+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:40:41.588+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:40:41.617+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:41.617+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:40:41.622+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:41.621+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:40:41.628+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:41:27.885+0100] {processor.py:161} INFO - Started process (PID=19099) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:41:27.886+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:41:27.886+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:27.886+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:41:27.888+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:41:27.917+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:27.917+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:41:27.921+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:27.921+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:41:27.928+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2025-04-05T11:42:13.872+0100] {processor.py:161} INFO - Started process (PID=19168) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:42:13.873+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-04-05T11:42:13.874+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:13.874+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:42:13.876+0100] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-04-05T11:42:13.905+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:13.905+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:42:13.910+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:13.910+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2025-04-04T00:00:00+00:00, run_after=2025-04-05T00:00:00+00:00
+[2025-04-05T11:42:13.916+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds

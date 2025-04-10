@@ -30,7 +30,19 @@ clean-targets:         # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
-  my_project:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+  marts:
+    bike_usage_analysis:
+      materialized: table 
+  staging:
+    stg_bike_data:
+      materialized: table
+
+
+# models:
+#   my_project:
+#     # Config indicated by + and applies to all files under models/example/
+#     example:
+#       +materialized: view
+
+    
+  

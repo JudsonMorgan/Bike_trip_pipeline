@@ -1,8 +1,45 @@
-google-cloud-storage==2.1.0
-pandas==1.5.3
-requests==2.26.0
-pytest==6.2.5
-google-cloud-bigquery>=1.25.0,<3.0.0
-dbt-bigquery>=0.21.0,<1.0.0
-apache-airflow==2.1.0
-flask-appbuilder==3.3 
+# apache-airflow==2.5.0
+# apache-airflow-providers-google
+
+# pandas==1.5.2 
+# requests>=2.27.0,<3.0.0
+# google-cloud-bigquery>=2.34.4,<3.0.0
+# google-cloud-storage>=2.1.0,<3.0.0
+
+# flask
+# flask-appbuilder
+
+# cython==0.29.28
+# jsonschema==4.17.3
+
+# pytest==6.2.5
+
+# Core Airflow
+apache-airflow==2.9.1
+
+# Providers (resolved via constraints)
+apache-airflow-providers-google
+apache-airflow-providers-fab
+
+# Data and API
+pandas
+requests>=2.27.0,<3.0.0
+
+# Google Cloud Clients
+google-cloud-bigquery
+google-cloud-storage
+
+# Web framework
+flask
+flask-appbuilder
+
+# Dev and Testing
+cython==0.29.28
+jsonschema>=4.18.0,<5.0.0
+pytest
+
+
+
+
+
+

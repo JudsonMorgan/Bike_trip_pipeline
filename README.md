@@ -6,7 +6,7 @@ This project aims to create a data pipeline for processing data from the London 
 ## Tech Stack
 - **Orchestration:** Apache Airflow
 - **Storage:** Google BigQuery
-- **Transformation:** dbt (or SQL)
+- **Transformation:** dbt (or SQL)gi 
 - **Infrastructure:** Terraform 
 - **Visualization:** Looker Studio / Metabase 
 

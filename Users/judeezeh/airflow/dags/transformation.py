@@ -1,13 +1,15 @@
 import pandas as pd
 
-def transform_data_function():
-    # Example: Transform data
-    bike_df = pd.read_csv('bike_data.csv')  # Assuming bike_data.csv is the file fetched previously
-    
-    # Example transformation: Clean data, filter, or calculate new columns
-    bike_df.dropna(inplace=True)  # Remove rows with missing values
-    bike_df['price'] = bike_df['price'].apply(lambda x: x * 1.1)  # Increase price by 10%
+def process_bike_data():
+    df = pd.read_csv('/data/bike_data_raw.csv')
 
-    # More transformations based on your needs
-    bike_df.to_csv('transformed_bike_data.csv', index=False)
-    print("Data transformation completed!")
+    # Handle missing columns gracefully
+    for col in ['location.city', 'location.country']:
+        if col not in df.columns:
+            df[col] = ''
+
+    df['location'] = df['location.city'] + ', ' + df['location.country']
+    cleaned_df = df[['id', 'name', 'location']]
+
+    cleaned_df.to_csv('/data/bike_data_clean.csv', index=False)
+

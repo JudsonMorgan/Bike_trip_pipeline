@@ -1,0 +1,45 @@
+2025-04-05 11:14:50,365 INFO - Task context logging is enabled
+2025-04-05 11:14:50,365 INFO - Loaded executor: SequentialExecutor
+2025-04-05 11:14:50,397 INFO - Starting the scheduler
+2025-04-05 11:14:50,398 INFO - Processing each file at most -1 times
+2025-04-05 11:14:50,401 INFO - Launched DagFileProcessorManager with pid: 16671
+2025-04-05 11:14:50,402 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-04-05 11:18:40,823 INFO - Exiting gracefully upon receiving signal 15
+2025-04-05 11:18:41,837 INFO - Sending 15 to group 16671. PIDs of all processes in the group: [16671]
+2025-04-05 11:18:41,838 INFO - Sending the signal 15 to group 16671
+2025-04-05 11:18:42,057 INFO - Process psutil.Process(pid=16671, status='terminated', exitcode=0, started='11:14:50') (16671) terminated with exit code 0
+2025-04-05 11:18:42,066 INFO - Sending 15 to group 16671. PIDs of all processes in the group: []
+2025-04-05 11:18:42,066 INFO - Sending the signal 15 to group 16671
+2025-04-05 11:18:42,066 INFO - Sending the signal 15 to process 16671 as process group is missing.
+2025-04-05 11:18:42,067 INFO - Exited execute loop
+2025-04-05 11:18:53,915 INFO - Task context logging is enabled
+2025-04-05 11:18:53,917 INFO - Loaded executor: SequentialExecutor
+2025-04-05 11:18:53,965 INFO - Starting the scheduler
+2025-04-05 11:18:53,966 INFO - Processing each file at most -1 times
+2025-04-05 11:18:53,969 INFO - Launched DagFileProcessorManager with pid: 17058
+2025-04-05 11:18:53,974 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-04-05 11:23:54,635 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-04-05 11:28:54,926 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-04-05 11:33:55,151 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-04-05 11:37:55,820 INFO - Exiting gracefully upon receiving signal 15
+2025-04-05 11:37:55,995 INFO - Sending 15 to group 17058. PIDs of all processes in the group: []
+2025-04-05 11:37:55,996 INFO - Sending the signal 15 to group 17058
+2025-04-05 11:37:55,996 INFO - Sending the signal 15 to process 17058 as process group is missing.
+2025-04-05 11:37:56,002 INFO - Sending 15 to group 17058. PIDs of all processes in the group: []
+2025-04-05 11:37:56,003 INFO - Sending the signal 15 to group 17058
+2025-04-05 11:37:56,003 INFO - Sending the signal 15 to process 17058 as process group is missing.
+2025-04-05 11:37:56,003 INFO - Exited execute loop
+2025-04-05 11:38:15,379 INFO - Task context logging is enabled
+2025-04-05 11:38:15,380 INFO - Loaded executor: SequentialExecutor
+2025-04-05 11:38:15,408 INFO - Starting the scheduler
+2025-04-05 11:38:15,408 INFO - Processing each file at most -1 times
+2025-04-05 11:38:15,411 INFO - Launched DagFileProcessorManager with pid: 18751
+2025-04-05 11:38:15,412 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-04-05 11:42:40,997 INFO - Exiting gracefully upon receiving signal 15
+2025-04-05 11:42:41,306 INFO - Sending 15 to group 18751. PIDs of all processes in the group: []
+2025-04-05 11:42:41,307 INFO - Sending the signal 15 to group 18751
+2025-04-05 11:42:41,307 INFO - Sending the signal 15 to process 18751 as process group is missing.
+2025-04-05 11:42:41,315 INFO - Sending 15 to group 18751. PIDs of all processes in the group: []
+2025-04-05 11:42:41,315 INFO - Sending the signal 15 to group 18751
+2025-04-05 11:42:41,315 INFO - Sending the signal 15 to process 18751 as process group is missing.
+2025-04-05 11:42:41,316 INFO - Exited execute loop

@@ -1,16 +1,16 @@
-import requests  # Example for API fetching, if you're using an API
+# fetch_bike_data.py
+import requests
 import pandas as pd
 
-def fetch_bike_data_function():
-    # Example: Fetch data from a public API
-    url = 'https://api.tfl.gov.uk/BikePoint'  # Replace with actual URL
+def fetch_data():  
+    url = "https://api.citybik.es/v2/networks"  
     response = requests.get(url)
-    
-    if response.status_code == 200:
-        bike_data = response.json()  # Assuming the API returns JSON
-        bike_df = pd.DataFrame(bike_data)
-        # Save or return the DataFrame for later stages
-        bike_df.to_csv('bike_data.csv', index=False)
-        print("Bike data fetched successfully!")
-    else:
-        print(f"Failed to fetch data, status code: {response.status_code}")
+    data = response.json()
+
+    networks = data['networks']
+    df = pd.json_normalize(networks)
+
+    df.to_csv('/Users/judeezeh/Desktop/Zoomcamp-project/data/bike_data.csv', index=False)
+
+
+

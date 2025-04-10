@@ -1,0 +1,896 @@
+[2025-04-05T11:14:53.103+0100] {processor.py:161} INFO - Started process (PID=16681) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:14:53.104+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:14:53.104+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:14:53.104+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:14:53.224+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:14:53.222+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:14:53.225+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:14:53.272+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.170 seconds
+[2025-04-05T11:16:17.014+0100] {processor.py:161} INFO - Started process (PID=16813) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:16:17.014+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:16:17.015+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:17.015+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:16:17.074+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:17.072+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:16:17.075+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:16:17.124+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.111 seconds
+[2025-04-05T11:17:05.027+0100] {processor.py:161} INFO - Started process (PID=16884) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:17:05.028+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:17:05.028+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:05.028+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:17:05.055+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:05.055+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:17:05.055+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:17:05.104+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.078 seconds
+[2025-04-05T11:17:48.555+0100] {processor.py:161} INFO - Started process (PID=16947) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:17:48.556+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:17:48.556+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:48.556+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:17:48.624+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:48.621+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:17:48.624+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:17:48.673+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.118 seconds
+[2025-04-05T11:18:35.657+0100] {processor.py:161} INFO - Started process (PID=17020) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:18:35.657+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:18:35.657+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:35.657+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:18:35.724+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:35.721+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:18:35.724+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:18:35.780+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.125 seconds
+[2025-04-05T11:18:56.730+0100] {processor.py:161} INFO - Started process (PID=17074) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:18:56.731+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:18:56.731+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:56.731+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:18:56.795+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:56.792+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:18:56.795+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:18:56.844+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.115 seconds
+[2025-04-05T11:20:17.932+0100] {processor.py:161} INFO - Started process (PID=17204) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:20:17.933+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:20:17.933+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:17.933+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:20:18.007+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:18.004+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:20:18.007+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:20:18.061+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.129 seconds
+[2025-04-05T11:21:15.256+0100] {processor.py:161} INFO - Started process (PID=17287) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:21:15.257+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:21:15.257+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:15.257+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:21:15.326+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:15.323+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:21:15.326+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:21:15.389+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.134 seconds
+[2025-04-05T11:22:13.972+0100] {processor.py:161} INFO - Started process (PID=17370) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:22:13.973+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:22:13.973+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:13.973+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:22:14.030+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:14.027+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:22:14.030+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:22:14.078+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.107 seconds
+[2025-04-05T11:23:03.124+0100] {processor.py:161} INFO - Started process (PID=17444) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:23:03.126+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:23:03.126+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:03.126+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:23:03.190+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:03.187+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:23:03.190+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:23:03.238+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.115 seconds
+[2025-04-05T11:23:51.274+0100] {processor.py:161} INFO - Started process (PID=17512) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:23:51.275+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:23:51.275+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:51.275+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:23:51.330+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:51.328+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:23:51.330+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:23:51.378+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.104 seconds
+[2025-04-05T11:24:43.141+0100] {processor.py:161} INFO - Started process (PID=17579) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:24:43.142+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:24:43.142+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:43.142+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:24:43.209+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:43.207+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:24:43.209+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:24:43.257+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.118 seconds
+[2025-04-05T11:25:33.477+0100] {processor.py:161} INFO - Started process (PID=17650) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:25:33.478+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:25:33.478+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:33.478+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:25:33.535+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:33.533+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:25:33.536+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:25:33.584+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.109 seconds
+[2025-04-05T11:26:20.494+0100] {processor.py:161} INFO - Started process (PID=17718) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:26:20.495+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:26:20.495+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:20.495+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:26:20.557+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:20.554+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:26:20.557+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:26:20.608+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.115 seconds
+[2025-04-05T11:27:10.967+0100] {processor.py:161} INFO - Started process (PID=17801) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:27:10.968+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:27:10.968+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:10.968+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:27:11.042+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:11.039+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:27:11.042+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:27:11.091+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.125 seconds
+[2025-04-05T11:28:06.654+0100] {processor.py:161} INFO - Started process (PID=17871) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:28:06.655+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:28:06.655+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:06.655+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:28:06.720+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:06.717+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:28:06.720+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:28:06.771+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.118 seconds
+[2025-04-05T11:29:02.105+0100] {processor.py:161} INFO - Started process (PID=17956) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:29:02.105+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:29:02.105+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:02.105+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:29:02.165+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:02.163+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:29:02.166+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:29:02.215+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.111 seconds
+[2025-04-05T11:29:58.091+0100] {processor.py:161} INFO - Started process (PID=18026) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:29:58.092+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:29:58.092+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:58.092+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:29:58.164+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:58.161+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:29:58.164+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:29:58.212+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.121 seconds
+[2025-04-05T11:30:51.313+0100] {processor.py:161} INFO - Started process (PID=18109) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:30:51.314+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:30:51.314+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:51.314+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:30:51.381+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:51.379+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:30:51.381+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:30:51.431+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.119 seconds
+[2025-04-05T11:31:38.788+0100] {processor.py:161} INFO - Started process (PID=18180) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:31:38.788+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:31:38.789+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:38.789+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:31:38.816+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:38.815+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:31:38.816+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:31:38.864+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.077 seconds
+[2025-04-05T11:32:29.703+0100] {processor.py:161} INFO - Started process (PID=18258) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:32:29.704+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:32:29.704+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:29.704+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:32:29.762+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:29.759+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:32:29.762+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:32:29.810+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.108 seconds
+[2025-04-05T11:33:21.252+0100] {processor.py:161} INFO - Started process (PID=18329) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:33:21.254+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:33:21.254+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:21.254+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:33:21.323+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:21.320+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:33:21.323+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:33:21.372+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.121 seconds
+[2025-04-05T11:34:15.893+0100] {processor.py:161} INFO - Started process (PID=18408) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:34:15.895+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:34:15.895+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:15.895+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:34:15.950+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:15.948+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:34:15.950+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:34:16.002+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.110 seconds
+[2025-04-05T11:35:03.618+0100] {processor.py:161} INFO - Started process (PID=18478) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:35:03.618+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:35:03.619+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:03.619+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:35:03.662+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:03.659+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:35:03.662+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:35:03.711+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.094 seconds
+[2025-04-05T11:35:50.304+0100] {processor.py:161} INFO - Started process (PID=18541) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:35:50.305+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:35:50.305+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:50.305+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:35:50.353+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:50.351+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:35:50.353+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:35:50.408+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.104 seconds
+[2025-04-05T11:36:44.985+0100] {processor.py:161} INFO - Started process (PID=18621) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:36:44.987+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:36:44.987+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:44.987+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:36:45.045+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:45.042+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:36:45.045+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:36:45.093+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.109 seconds
+[2025-04-05T11:37:37.288+0100] {processor.py:161} INFO - Started process (PID=18707) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:37:37.289+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:37:37.289+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:37.289+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:37:37.347+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:37.345+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:37:37.347+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:37:37.395+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.108 seconds
+[2025-04-05T11:38:19.892+0100] {processor.py:161} INFO - Started process (PID=18758) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:38:19.893+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:38:19.893+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:19.893+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:38:19.951+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:19.949+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:38:19.951+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:38:20.000+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.109 seconds
+[2025-04-05T11:39:39.280+0100] {processor.py:161} INFO - Started process (PID=18892) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:39:39.280+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:39:39.280+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:39.280+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:39:39.307+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:39.306+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:39:39.307+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:39:39.354+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.076 seconds
+[2025-04-05T11:40:30.226+0100] {processor.py:161} INFO - Started process (PID=18986) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:40:30.228+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:40:30.228+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:30.228+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:40:30.300+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:30.298+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:40:30.300+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:40:30.349+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.124 seconds
+[2025-04-05T11:41:16.621+0100] {processor.py:161} INFO - Started process (PID=19083) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:41:16.623+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:41:16.623+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:16.623+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:41:16.681+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:16.679+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:41:16.681+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:41:16.729+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.109 seconds
+[2025-04-05T11:42:03.011+0100] {processor.py:161} INFO - Started process (PID=19152) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:42:03.012+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-04-05T11:42:03.012+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:03.012+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:42:03.075+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:03.073+0100] {dagbag.py:350} ERROR - Failed to import: /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+[2025-04-05T11:42:03.076+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2025-04-05T11:42:03.124+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.114 seconds

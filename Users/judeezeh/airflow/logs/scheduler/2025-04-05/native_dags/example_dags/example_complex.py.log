@@ -1,0 +1,116 @@
+[2025-04-05T11:15:59.734+0100] {processor.py:161} INFO - Started process (PID=16771) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:15:59.735+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:15:59.735+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.735+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:15:59.739+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:15:59.827+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.826+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-04-05T11:15:59.829+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.829+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-04-05T11:15:59.831+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.831+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:example_complex
+[2025-04-05T11:15:59.831+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.831+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:15:59.834+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.834+0100] {dag.py:3118} INFO - Creating ORM DAG for example_complex
+[2025-04-05T11:15:59.834+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:59.834+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:15:59.839+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.106 seconds
+[2025-04-05T11:17:32.758+0100] {processor.py:161} INFO - Started process (PID=16925) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:17:32.759+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:17:32.759+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:32.759+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:17:32.763+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:17:32.799+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:32.799+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:17:32.802+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:17:32.802+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:17:32.810+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.053 seconds
+[2025-04-05T11:20:00.927+0100] {processor.py:161} INFO - Started process (PID=17182) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:20:00.928+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:20:00.928+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:00.928+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:20:00.932+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:20:00.964+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:00.964+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:20:00.967+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:00.967+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:20:00.974+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-04-05T11:21:56.882+0100] {processor.py:161} INFO - Started process (PID=17347) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:21:56.882+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:21:56.883+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:56.883+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:21:56.887+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:21:56.924+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:56.923+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:21:56.927+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:21:56.927+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:21:56.934+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2025-04-05T11:23:36.422+0100] {processor.py:161} INFO - Started process (PID=17491) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:23:36.422+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:23:36.422+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:36.422+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:23:36.426+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:23:36.459+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:36.459+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:23:36.462+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:23:36.462+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:23:36.469+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-04-05T11:25:18.793+0100] {processor.py:161} INFO - Started process (PID=17629) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:25:18.794+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:25:18.794+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:18.794+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:25:18.798+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:25:18.830+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:18.830+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:25:18.833+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:25:18.833+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:25:18.840+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-04-05T11:26:55.335+0100] {processor.py:161} INFO - Started process (PID=17778) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:26:55.336+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:26:55.336+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:55.336+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:26:55.341+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:26:55.374+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:55.374+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:26:55.377+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:55.377+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:26:55.385+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.050 seconds
+[2025-04-05T11:28:46.335+0100] {processor.py:161} INFO - Started process (PID=17935) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:28:46.336+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:28:46.336+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:46.336+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:28:46.340+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:28:46.373+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:46.373+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:28:46.376+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:28:46.375+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:28:46.383+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2025-04-05T11:30:35.521+0100] {processor.py:161} INFO - Started process (PID=18085) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:30:35.521+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:30:35.522+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:35.522+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:30:35.526+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:30:35.558+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:35.558+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:30:35.561+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:30:35.561+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:30:35.569+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2025-04-05T11:32:12.790+0100] {processor.py:161} INFO - Started process (PID=18233) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:32:12.790+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:32:12.790+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:12.790+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:32:12.795+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:32:12.827+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:12.827+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:32:12.830+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:32:12.830+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:32:12.837+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-04-05T11:34:00.183+0100] {processor.py:161} INFO - Started process (PID=18382) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:34:00.184+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:34:00.184+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:00.184+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:34:00.188+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:34:00.220+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:00.220+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:34:00.223+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:00.222+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:34:00.229+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2025-04-05T11:35:33.488+0100] {processor.py:161} INFO - Started process (PID=18519) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:35:33.488+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:35:33.488+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:33.488+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:35:33.492+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:35:33.525+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:33.525+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:35:33.528+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:35:33.528+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:35:33.535+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-04-05T11:37:21.707+0100] {processor.py:161} INFO - Started process (PID=18685) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:37:21.708+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:37:21.708+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:21.708+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:37:21.712+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:37:21.745+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:21.745+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:37:21.748+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:37:21.748+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:37:21.755+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2025-04-05T11:39:20.892+0100] {processor.py:161} INFO - Started process (PID=18867) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:39:20.893+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:39:20.893+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:20.893+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:39:20.897+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:39:20.929+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:20.929+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:39:20.932+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:39:20.931+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:39:20.939+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds
+[2025-04-05T11:41:00.288+0100] {processor.py:161} INFO - Started process (PID=19058) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:41:00.289+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:41:00.289+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:00.289+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:41:00.293+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:41:00.329+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:00.329+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:41:00.332+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:00.332+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:41:00.340+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.054 seconds
+[2025-04-05T11:42:31.438+0100] {processor.py:161} INFO - Started process (PID=19194) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:42:31.439+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-05T11:42:31.439+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:31.439+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:42:31.443+0100] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2025-04-05T11:42:31.475+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:31.475+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:42:31.478+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:42:31.478+0100] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-05T11:42:31.484+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.047 seconds

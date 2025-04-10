@@ -1,0 +1,123 @@
+[2025-04-05T11:15:28.525+0100] {processor.py:161} INFO - Started process (PID=16730) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:15:28.525+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:15:28.525+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.525+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:15:28.529+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:15:28.610+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.610+0100] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-04-05T11:15:28.614+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.614+0100] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-04-05T11:15:28.616+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.616+0100] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-04-05T11:15:28.616+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.616+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:15:28.619+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.619+0100] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2025-04-05T11:15:28.619+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:15:28.619+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:15:28.625+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.101 seconds
+[2025-04-05T11:16:50.425+0100] {processor.py:161} INFO - Started process (PID=16861) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:16:50.426+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:16:50.426+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:50.426+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:16:50.432+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:16:50.465+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:50.464+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:16:50.468+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:16:50.468+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:16:50.474+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2025-04-05T11:18:18.830+0100] {processor.py:161} INFO - Started process (PID=16991) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:18:18.831+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:18:18.831+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:18.831+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:18:18.837+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:18:18.870+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:18.870+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:18:18.873+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:18:18.873+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:18:18.879+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2025-04-05T11:19:32.485+0100] {processor.py:161} INFO - Started process (PID=17137) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:19:32.486+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:19:32.486+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:19:32.486+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:19:32.491+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:19:32.525+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:19:32.525+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:19:32.529+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:19:32.529+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:19:32.536+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds
+[2025-04-05T11:20:57.909+0100] {processor.py:161} INFO - Started process (PID=17262) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:20:57.910+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:20:57.910+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:57.910+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:20:57.916+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:20:57.952+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:57.952+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:20:57.955+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:20:57.955+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:20:57.963+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.055 seconds
+[2025-04-05T11:22:48.436+0100] {processor.py:161} INFO - Started process (PID=17420) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:22:48.437+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:22:48.437+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:48.437+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:22:48.443+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:22:48.475+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:48.475+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:22:48.478+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:22:48.478+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:22:48.485+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.049 seconds
+[2025-04-05T11:24:24.655+0100] {processor.py:161} INFO - Started process (PID=17556) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:24:24.656+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:24:24.656+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:24.656+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:24:24.662+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:24:24.694+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:24.694+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:24:24.698+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:24:24.697+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:24:24.704+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2025-04-05T11:26:03.227+0100] {processor.py:161} INFO - Started process (PID=17693) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:26:03.230+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:26:03.230+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:03.230+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:26:03.236+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:26:03.268+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:03.268+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:26:03.271+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:26:03.271+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:26:03.277+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds
+[2025-04-05T11:27:48.013+0100] {processor.py:161} INFO - Started process (PID=17848) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:27:48.014+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:27:48.015+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:48.015+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:27:48.020+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:27:48.052+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:48.052+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:27:48.056+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:27:48.055+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:27:48.062+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.049 seconds
+[2025-04-05T11:29:39.406+0100] {processor.py:161} INFO - Started process (PID=18003) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:29:39.406+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:29:39.406+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:39.406+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:29:39.412+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:29:39.446+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:39.445+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:29:39.449+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:29:39.449+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:29:39.456+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds
+[2025-04-05T11:31:22.357+0100] {processor.py:161} INFO - Started process (PID=18155) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:31:22.357+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:31:22.357+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:22.357+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:31:22.364+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:31:22.397+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:22.397+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:31:22.400+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:31:22.400+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:31:22.406+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds
+[2025-04-05T11:33:02.694+0100] {processor.py:161} INFO - Started process (PID=18306) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:33:02.695+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:33:02.695+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:02.695+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:33:02.701+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:33:02.733+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:02.733+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:33:02.736+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:33:02.736+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:33:02.743+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2025-04-05T11:34:48.752+0100] {processor.py:161} INFO - Started process (PID=18455) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:34:48.752+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:34:48.753+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:48.753+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:34:48.758+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:34:48.790+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:48.790+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:34:48.793+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:34:48.793+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:34:48.799+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.049 seconds
+[2025-04-05T11:36:27.636+0100] {processor.py:161} INFO - Started process (PID=18591) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:36:27.637+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:36:27.637+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:27.637+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:36:27.643+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:36:27.676+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:27.676+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:36:27.679+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:36:27.679+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:36:27.685+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.050 seconds
+[2025-04-05T11:38:53.738+0100] {processor.py:161} INFO - Started process (PID=18825) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:38:53.739+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:38:53.740+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:53.739+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:38:53.744+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:38:53.776+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:53.776+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:38:53.779+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:38:53.779+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:38:53.785+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.048 seconds
+[2025-04-05T11:40:13.006+0100] {processor.py:161} INFO - Started process (PID=18954) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:40:13.006+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:40:13.006+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:13.006+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:40:13.014+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:40:13.047+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:13.047+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:40:13.050+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:40:13.050+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:40:13.057+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.052 seconds
+[2025-04-05T11:41:45.823+0100] {processor.py:161} INFO - Started process (PID=19128) to work on /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:41:45.825+0100] {processor.py:830} INFO - Processing file /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-05T11:41:45.825+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:45.825+0100] {dagbag.py:540} INFO - Filling up the DagBag from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:41:45.831+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-05T11:41:45.864+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:45.864+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-05T11:41:45.867+0100] {logging_mixin.py:188} INFO - [2025-04-05T11:41:45.867+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-05T11:41:45.874+0100] {processor.py:183} INFO - Processing /Users/judeezeh/Desktop/Zoomcamp-project/venv/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds

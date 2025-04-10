@@ -1,17 +1,26 @@
-from google.cloud import bigquery 
-import pandas as pd 
+import pandas as pd
+from airflow.providers.google.cloud.hooks.bigquery import BigQueryHook
+from google.cloud import bigquery
 
-def load_to_bq(file_path):
-    # Initialize BigQuery client 
+def load_to_bq():
+    df = pd.read_csv('/Users/judeezeh/Desktop/Zoomcamp-project/data/bike_data.csv')
 
-    client = bigquery.Client()
+    # 🔥 FIX: Replace dots in column names (BigQuery doesn't allow them)
+    df.columns = df.columns.str.replace('.', '_', regex=False)
 
-    # Load the cleaned CSV file into BigQuery
-    df = pd.read_csv(file_path)
-    table_id = "zoomcamp-project-455614.NYC_trips_dataset"
+    print(f"Processed {df.shape[0]} rows to load into BigQuery.")
 
-    # Upload to BigQuery
-    job = client.load_table_from_dataframe(df, table_id)
-    job.result()
+    hook = BigQueryHook(gcp_conn_id='google_cloud_default')
+    client = hook.get_client()
 
-    return f"Data loaded to BigQuery: {table_id}"
+    table_id = 'zoomcamp-project-455614.NYC_trips_dataset.bike_data'
+
+    job_config = bigquery.LoadJobConfig(
+        autodetect=True,
+        write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE
+    )
+
+    job = client.load_table_from_dataframe(df, table_id, job_config=job_config)
+    job.result()  # Waits for the job to complete
+
+    print(f"Successfully loaded data to {table_id}.")

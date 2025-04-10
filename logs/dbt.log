@@ -107,3 +107,64 @@ ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expec
 [0m13:11:16.717972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e3ec90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e3fa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1010183d0>]}
 [0m13:11:16.718135 [debug] [MainThread]: Flushing usage events
 [0m13:11:22.305009 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m04:49:27.393868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069fad50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a60a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a60fd0>]}
+
+
+============================== 04:49:27.397446 | ad13b32e-50b3-4182-93a0-4a33ca277a8d ==============================
+[0m04:49:27.397446 [info ] [MainThread]: Running with dbt=1.9.3
+[0m04:49:27.397783 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'profiles_dir': '/Users/judeezeh/.dbt', 'log_path': 'logs', 'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'empty': 'None', 'log_format': 'default', 'write_json': 'True', 'warn_error': 'None', 'static_parser': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'version_check': 'True', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'quiet': 'False', 'target_path': 'None'}
+[0m04:49:27.406218 [info ] [MainThread]: dbt version: 1.9.3
+[0m04:49:27.406483 [info ] [MainThread]: python version: 3.11.7
+[0m04:49:27.406630 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m04:49:27.406756 [info ] [MainThread]: os info: macOS-15.3.2-arm64-arm-64bit
+[0m04:49:28.397842 [info ] [MainThread]: Using profiles dir at /Users/judeezeh/.dbt
+[0m04:49:28.398119 [info ] [MainThread]: Using profiles.yml file at /Users/judeezeh/.dbt/profiles.yml
+[0m04:49:28.398271 [info ] [MainThread]: Using dbt_project.yml file at /Users/judeezeh/Desktop/Zoomcamp-project/dbt_project.yml
+[0m04:49:28.398403 [info ] [MainThread]: adapter type: bigquery
+[0m04:49:28.398523 [info ] [MainThread]: adapter version: 1.9.1
+[0m04:49:28.398648 [info ] [MainThread]: Configuration:
+[0m04:49:28.398759 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m04:49:28.398886 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m04:49:28.398991 [info ] [MainThread]: Required dependencies:
+[0m04:49:28.399146 [debug] [MainThread]: Executing "git --help"
+[0m04:49:28.423481 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m04:49:28.423919 [debug] [MainThread]: STDERR: "b''"
+[0m04:49:28.424065 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m04:49:28.424212 [info ] [MainThread]: Connection:
+[0m04:49:28.424388 [info ] [MainThread]:   method: service-account
+[0m04:49:28.424504 [info ] [MainThread]:   database: zoomcamp-project-455614
+[0m04:49:28.424605 [info ] [MainThread]:   execution_project: zoomcamp-project-455614
+[0m04:49:28.424711 [info ] [MainThread]:   schema: NYC_trips_dataset
+[0m04:49:28.424809 [info ] [MainThread]:   location: US
+[0m04:49:28.424907 [info ] [MainThread]:   priority: interactive
+[0m04:49:28.425006 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m04:49:28.425102 [info ] [MainThread]:   impersonate_service_account: None
+[0m04:49:28.425199 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m04:49:28.425311 [info ] [MainThread]:   job_retries: 1
+[0m04:49:28.425411 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m04:49:28.425509 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m04:49:28.425608 [info ] [MainThread]:   timeout_seconds: 300
+[0m04:49:28.425709 [info ] [MainThread]:   client_id: None
+[0m04:49:28.425804 [info ] [MainThread]:   token_uri: None
+[0m04:49:28.425901 [info ] [MainThread]:   dataproc_region: None
+[0m04:49:28.425993 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m04:49:28.426088 [info ] [MainThread]:   gcs_bucket: None
+[0m04:49:28.426186 [info ] [MainThread]:   dataproc_batch: None
+[0m04:49:28.426453 [info ] [MainThread]: Registered adapter: bigquery=1.9.1
+[0m04:49:28.494511 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m04:49:28.494826 [debug] [MainThread]: On debug: select 1 as id
+[0m04:49:28.494979 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m04:49:31.250187 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=zoomcamp-project-455614&j=bq:US:fb970b95-52f2-432a-b67c-ade356878984&page=queryresults
+[0m04:49:32.485245 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m04:49:32.486370 [info ] [MainThread]: [31m1 check failed:[0m
+[0m04:49:32.486788 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/judeezeh/Desktop/Zoomcamp-project/dbt_project.yml> not found
+
+[0m04:49:32.487587 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 5.127445, "process_in_blocks": "0", "process_kernel_time": 0.388482, "process_mem_max_rss": "244072448", "process_out_blocks": "0", "process_user_time": 2.914972}
+[0m04:49:32.488256 [debug] [MainThread]: Command `dbt debug` failed at 04:49:32.488130 after 5.13 seconds
+[0m04:49:32.488762 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m04:49:32.489264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100c0bf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a61a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1299ac6d0>]}
+[0m04:49:32.489945 [debug] [MainThread]: Flushing usage events
+[0m04:49:35.648805 [debug] [MainThread]: An error was encountered while trying to flush usage events

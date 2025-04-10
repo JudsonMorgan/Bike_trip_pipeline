@@ -19,7 +19,10 @@ test:
 
 # Start Airflow web server
 start_airflow:
-	airflow webserver -p 8080
+	airflow db init
+	airflow webserver --port 8080 --worker-class sync &
+	airflow scheduler &
+
 
 # Start Airflow scheduler
 start_scheduler:
