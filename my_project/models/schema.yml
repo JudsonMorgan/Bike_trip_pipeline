@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_bike_data
+    description: "Staging table for raw bike data loaded from Airflow"
+    columns:
+      - name: location_city
+        tests:
+          - not_null
+
+  - name: bike_metrics
+    description: "Aggregated bike metrics for reporting"
+    columns:
+      - name: location_city
+        tests:
+          - not_null
+      - name: trip_count
+      - name: avg_slots
