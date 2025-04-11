@@ -1,46 +1,73 @@
-# 🚴 London Bike Sharing Analytics
+# Zoomcamp Data Engineering Project
 
-## Description
-This project aims to create a data pipeline for processing data from the London Bike Rental service (Santander Cycles). The data will be ingested, cleaned, loaded into BigQuery, transformed, and visualized via a dashboard.
+Modern Data Pipeline for NYC Bike Data using:
 
-## Tech Stack
-- **Orchestration:** Apache Airflow
-- **Storage:** Google BigQuery
-- **Transformation:** dbt (or SQL)gi 
-- **Infrastructure:** Terraform 
-- **Visualization:** Looker Studio / Metabase 
+- Apache Airflow (Orchestration)
+- Google BigQuery (Data Warehouse)
+- dbt (Transformations & Analytics)
+- Secure Environment & Production-Ready Setup
 
-## Project Structure
+---
 
-### dags/
-- **bike_data_pipeline.py**: Airflow DAG to orchestrate the entire data pipeline.
-- **dependencies.py**: Shared utility functions for the DAG.
-- **load_to_bq.py**: Task to load data to BigQuery.
-- **transformation.py**: Task for transforming data for BI usage. 
+---
 
-### scripts/
-- **ingest_bike_data.py**: Script to ingest bike rental data.
-- **clean_data.py**: Script to clean the ingested data.
+## Setup Instructions
 
-### dbt/
-- DBT transformation models for cleaning and aggregating the data.
+### 1. Clone This Repository:
 
-## Setup
+```bash
+git clone [Github repo](https://github.com/JudsonMorgan/NYC_trip_data_project)
+cd zoomcamp_project
+```
 
-1. Clone this repository
-    ```
-    git clone https://github.com/JudsonMorgan/NYC_trip_data_project.git 
-    ```
-2. Install dependencies:
-    ```
-    make setup
-    ```
-3. Set up Airflow
-    ```
-    airflow db init
-    airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
-    ```
-4. Run the Airflow DAG:
-    ```
-    make run_all
-    ```
+### 2. Create Virtual Environment
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+### 3. Environment variable
+
+`GOOGLE_APPLICATION_CREDENTIALS=/Users/<your-username>/.gcp/gcp-key.json`
+
+Load it:
+```bash
+export $(cat .env | xargs)
+```
+
+### 4. Running Airflow Locally
+
+```bash
+airflow db init
+airflow scheduler
+airflow webserver
+```
+
+Trigger DAG:
+```bash
+airflow dags trigger bike_data_pipeline
+```
+### 5. Running dbt locally
+
+Navigate to your dbt project:
+```bash
+cd my_project/
+dbt debug
+dbt run
+dbt test
+dbt docs generate
+dbt docs serve
+```
+
+### Security Notes
+- GCP Keys are NEVER committed to Git.
+
+- Secrets managed via `.env`
+
+- `.gitignore` protects sensitive files.
+
+- Refer to `SECURITY_CHECKLIST.md` for best practices.
+
+
+Author
+Built with ❤️ by Jude — powered by Airflow, BigQuery, and dbt.
