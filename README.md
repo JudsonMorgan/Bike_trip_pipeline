@@ -74,6 +74,10 @@ Visualize the NYC Bike Data with Looker Studio.
 - City locations
 - Filters for Country & City
 
+## Dashboard Preview:
+
+![Dashboard Preview](./assets/dashboard_preview.png)
+
 
 ### Security Notes
 - GCP Keys are NEVER committed to Git.
