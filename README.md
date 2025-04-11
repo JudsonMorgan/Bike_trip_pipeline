@@ -15,10 +15,10 @@ Modern Data Pipeline for NYC Bike Data using:
 
 ### 1. Clone This Repository:
 
+[git clone the repo](https://github.com/JudsonMorgan/NYC_trip_data_project)
 ```bash
-git clone this [Repo](https://github.com/JudsonMorgan/NYC_trip_data_project)
-cd zoomcamp_project
-```
+git clone https://github.com/JudsonMorgan/NYC_trip_data_project.git
+
 
 ### 2. Create Virtual Environment
 
