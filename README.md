@@ -59,6 +59,22 @@ dbt docs generate
 dbt docs serve
 ```
 
+## Live Dashboard
+
+Visualize your NYC Bike Data with Looker Studio.
+
+[View Looker Studio Dashboard](https://lookerstudio.google.com/u/0/reporting/185f828c-bb2e-4475-b2f7-ef8cfd994c4a/page/IAhGF/edit)
+
+---
+
+## Dashboard Features:
+- Number of Cities
+- Total Systems
+- Trips per country
+- City locations
+- Filters for Country & City
+
+
 ### Security Notes
 - GCP Keys are NEVER committed to Git.
 
