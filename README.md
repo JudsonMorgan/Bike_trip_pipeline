@@ -1,6 +1,6 @@
 # Zoomcamp Data Engineering Project
 
-Modern Data Pipeline for NYC Bike Data using:
+Modern Data Pipeline for Bike Trips Data using:
 
 - Apache Airflow (Orchestration)
 - Google BigQuery (Data Warehouse)
@@ -10,6 +10,10 @@ Modern Data Pipeline for NYC Bike Data using:
 ---
 
 ---
+
+## Architecture Overview
+
+![Data Pipeline Architecture](./assets/data_architecture.drawio.png)
 
 ## Setup Instructions
 
