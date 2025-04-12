@@ -1,2 +1,21 @@
 configs/gcp-key.json
 .gcp/
+
+# Python environments
+venv/
+myenv/
+bigquery-env/
+
+# Data and logs
+data/
+logs/
+
+# Mac system files
+.DS_Store
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+
