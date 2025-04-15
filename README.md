@@ -82,6 +82,14 @@ Visualize the NYC Bike Data with Looker Studio.
 
 ![Dashboard Preview](./assets/dashboard_preview.png)
 
+## Read My Full Medium Article
+
+I shared a detailed breakdown of this project on Medium:
+
+> *Building a Modern Data Pipeline with Airflow, BigQuery & dbt: My Bike Trip Data Project (End-to-End Guide)*
+
+[Read the Article on Medium](https://medium.com/@judeezeh2012/building-a-modern-data-pipeline-with-airflow-bigquery-dbt-my-bike-trip-data-project-end-to-end-be79b131612c)
+
 
 ### Security Notes
 - GCP Keys are NEVER committed to Git.
