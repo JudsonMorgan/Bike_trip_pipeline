@@ -1,4 +1,3 @@
-# fetch_bike_data.py
 import requests
 import pandas as pd
 
@@ -11,6 +10,4 @@ def fetch_data():
     df = pd.json_normalize(networks)
 
     df.to_csv('/Users/judeezeh/Desktop/Zoomcamp-project/data/bike_data.csv', index=False)
-
-
 
