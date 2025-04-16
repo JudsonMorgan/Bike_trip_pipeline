@@ -5,7 +5,7 @@ from google.cloud import bigquery
 def load_to_bq():
     df = pd.read_csv('/Users/judeezeh/Desktop/Zoomcamp-project/data/bike_data.csv')
 
-    # 🔥 FIX: Replace dots in column names (BigQuery doesn't allow them)
+
     df.columns = df.columns.str.replace('.', '_', regex=False)
 
     print(f"Processed {df.shape[0]} rows to load into BigQuery.")
